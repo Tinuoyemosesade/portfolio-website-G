@@ -4,4 +4,11 @@ var game ={};
 
 game.murderer = "??"
 
-game['weapons'] = ['laser', 'guns', 'dish soap']
+game['weapons'] = [
+    'laser', 
+    'guns', 
+    'dish soap'
+]
+game.name = [];
+game.name[0] ="mrs white";
+game.name.push('mr green')
