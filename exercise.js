@@ -43,7 +43,11 @@ foo();
 var gameLoop = function() {
     for (var i = 0; i < GamepadPose.suspects.length; i++){
         for (var key in game.suspects[i]) {
-            if
+            if (game.suspect[i][key] === "Rusty"){
+                console.log ('found em')
+            } else {
+                console.log ('next time')
+            }
         }
     }
 }
