@@ -31,10 +31,19 @@ const game = {
         color: "red"
     }]
 }
+
+//loop through array in object property
 function foo() {
     for (let i = 0; i < game.suspects.length; i++){
         console.log(game.suspects[i]);
     }
 }
-
 foo();
+
+var gameLoop = function() {
+    for (var i = 0; i < GamepadPose.suspects.length; i++){
+        for (var key in game.suspects[i]) {
+            if
+        }
+    }
+}
