@@ -4,7 +4,7 @@ var game ={};
 
 game.murderer = "??"
 
-game['weapons'] = [
+game.weapons = [
     'laser', 
     'guns', 
     'dish soap'
