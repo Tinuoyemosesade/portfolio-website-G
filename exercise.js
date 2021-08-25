@@ -32,8 +32,8 @@ const game = {
     }]
 }
 function foo() {
-    for (let i = 0; i < game.length; i++){
-        console.log(game[i]);
+    for (let i = 0; i < game.suspects.length; i++){
+        console.log(game.suspects[i]);
     }
 }
 
