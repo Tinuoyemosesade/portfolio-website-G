@@ -21,3 +21,20 @@ const { name, weapon, room } = {
     "room": "kitchen", 
     "weapon":"candlestick"
 }
+
+const game = {
+    'suspects': [{
+        name: "Rusty",
+        color: "orange"
+    }, {
+        name: "Miss Scarlet",
+        color: "red"
+    }]
+}
+function foo() {
+    for (let i = 0; i < game.length; i++){
+        console.log(game[i]);
+    }
+}
+
+foo();
