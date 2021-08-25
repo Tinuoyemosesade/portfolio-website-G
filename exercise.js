@@ -41,7 +41,7 @@ function foo() {
 foo();
 
 var gameLoop = function() {
-    for (var i = 0; i < GamepadPose.suspects.length; i++){
+    for (var i = 0; i < game.suspects.length; i++){
         for (var key in game.suspects[i]) {
             if (game.suspect[i][key] === "Rusty"){
                 console.log ('found em')
