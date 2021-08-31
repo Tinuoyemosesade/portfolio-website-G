@@ -32,6 +32,7 @@ const game = {
     }]
 }
 
+
 //loop through array in object property
 function foo() {
     for (let i = 0; i < game.suspects.length; i++){
@@ -46,7 +47,7 @@ var gameLoop = function() {
             if (game.suspect[i][key] === "Rusty"){
                 console.log ('found em')
             } else {
-                
+
                 console.log ('next time')
             }
         }
