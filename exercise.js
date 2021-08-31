@@ -46,6 +46,7 @@ var gameLoop = function() {
             if (game.suspect[i][key] === "Rusty"){
                 console.log ('found em')
             } else {
+                
                 console.log ('next time')
             }
         }
