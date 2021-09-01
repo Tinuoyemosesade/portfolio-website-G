@@ -32,7 +32,6 @@ const game = {
     }]
 }
 
-
 //loop through array in object property
 function foo() {
     for (let i = 0; i < game.suspects.length; i++){
