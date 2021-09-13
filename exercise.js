@@ -22,7 +22,6 @@ const { name, weapon, room } = {
     "weapon":"candlestick"
 }
 
-
 const game = {
     'suspects': [{
         name: "Rusty",
