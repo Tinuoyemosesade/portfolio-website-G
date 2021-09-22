@@ -9,6 +9,7 @@ game.weapons = [
     'guns', 
     'dish soap'
 ]
+
 game.name = [];
 game.name[0] ="mrs white";
 game.name.push('mr green')
